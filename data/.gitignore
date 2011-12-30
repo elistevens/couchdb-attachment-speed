@@ -1,0 +1,4 @@
+*.raw
+*.base64
+*.base64_json
+*.multipart
