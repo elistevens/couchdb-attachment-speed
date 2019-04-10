@@ -2,7 +2,7 @@ The intent is to run 'python makedata.py' once, and then repeatedly run 'bash do
 
 Here's what I'm doing in makedata.py:
 
-- Creating raw data from /dev/urandom in powers of 10 increments from 10e1 to 10e9, and saving it to disk.
+- Creating raw data from /dev/urandom in powers of 10 increments from 1e1 to 1e9, and saving it to disk.
 - base64 encoding the raw data in python using the built-in base64 module, and saving that to disk.
 - Writing a doc with the _attachments dict filled with the base64 data to disk.
 - Populating a DB with some empty docs to be targeted by the raw attachment and multipart APIs.
